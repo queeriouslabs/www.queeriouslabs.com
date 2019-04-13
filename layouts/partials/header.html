@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta chartset="utf-8">
+    <link rel="icon" href="favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    {{ if eq "Home" .Title }}
+    <link rel="stylesheet" type="text/css" href="/pink_on_black.css">
+    {{ else if eq "Manifesto" .Title }}
+    <link rel="stylesheet" type="text/css" href="/black_on_pink.css">
+    {{ else if eq "Donate" .Title }}
+    <link rel="stylesheet" type="text/css" href="/white_on_black.css">
+    {{ end }}
+    <title>Queerious Labs - {{ .Title }}</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/manifesto">Manifesto</a></li>
+        <li><a href="/donate">Donate</a></li>
+      </ul>
+    </nav>

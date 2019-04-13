@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+body {
+  color: #ff69b4;
+  background-color: black;
+  padding: 30px 33% 60px 33%;
+  overflow-y: scroll;
+}
+
+h1 {
+  font-family: VT323;
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: VT323;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: VT323;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+h4 {
+  font-family: VT323;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 15px;
+}
+
+a, a:visited {
+  color: #b4ff69;
+  font-weight: 900;
+}
+
+nav {
+  background-color: #ff69b4;
+  color: black;
+  padding: 0.5em;
+}
+
+nav a, nav a:visited {
+  font-family: VT323;
+  font-size: 30px;
+  color: black;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+}
+
+li {
+  margin: 5px 0 5px 1em;
+}
+
+.donate_info {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
