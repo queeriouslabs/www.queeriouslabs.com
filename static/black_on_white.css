@@ -8,7 +8,9 @@
 body {
   color: black;
   background-color: white;
-  padding: 30px 33% 60px 33%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 30px;
   overflow-y: scroll;
 }
 
