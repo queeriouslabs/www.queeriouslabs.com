@@ -1,0 +1,12 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'Ubuntu-16.04'
+
+steps:
+- script: sudo apt install hugo
+  displayName: 'Install Hugo'
+
+- script: ./build.sh
+  displayName: 'Run build'
