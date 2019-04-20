@@ -2,6 +2,5 @@
 
 rm -rf public
 hugo
-git add --all
-git commit -m "site update $(date)"
-git push
+rm -rf deployed || true
+mv public deployed
