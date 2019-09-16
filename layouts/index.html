@@ -23,6 +23,7 @@
       <p>No projects yet. Check back later!</p>
       {{ else }}
         {{ with $projects := .Site.GetPage "/projects" }}
+        {{ $projects }}
           {{ range $project := first 3 $projects.Pages }}
       <h2><a href="{{ $project.Permalink }}">{{ $project.Title }}</a></h2>
       <p>{{ $project.Date.Format "2006-01-02" }}</p>
