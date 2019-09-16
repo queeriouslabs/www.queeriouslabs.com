@@ -1,7 +1,7 @@
 ---
 
 title: UC Berkeley Webcast Index
-description: A user-friendly index of the UC Berkeley Webcast archive that is currently only the Internet Archive.
+description: A user-friendly index of the UC Berkeley Webcast archive that is currently on the Internet Archive.
 date: 2019-06-16
 
 ---
