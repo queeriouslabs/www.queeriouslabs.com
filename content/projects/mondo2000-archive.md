@@ -1,7 +1,7 @@
 ---
 
 title: Mondo 2000 Archive
-description: Uploading all of Mondo 2000 to the Internet Archive.
+description: Scanning all of Mondo 2000 and uploading it to the Internet Archive.
 date: 2019-09-15
 
 ---
