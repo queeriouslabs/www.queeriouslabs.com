@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+    
+    <h1>Projects</h1>
+
+    <p>An indexof the projects that have been built by Queerious Labs.</p>
+    
+    {{ range .Pages.ByDate }}
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <p><em>{{ .Date.Format "2006-01-02" }}</em></p>
+    <p>{{ .Description }}</p>
+    {{ end }}
+ 
+{{ partial "footer.html" . }}
