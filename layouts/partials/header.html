@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     {{ if eq "Home" .Title }}
     <link rel="stylesheet" type="text/css" href="/pink_on_black.css">
+    {{ else if eq "Projects" .Title }}
+    <link rel="stylesheet" type="text/css" href="/green_on_black.css">
     {{ else if eq "Manifesto" .Title }}
     <link rel="stylesheet" type="text/css" href="/black_on_pink.css">
     {{ else if eq "Donate" .Title }}
