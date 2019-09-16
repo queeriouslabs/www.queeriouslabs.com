@@ -22,9 +22,8 @@
       {{ if (eq (len (where .Pages "Section" "projects")) 0) }}
       <p>No projects yet. Check back later!</p>
       {{ else }}
-        {{ with $projects := .Site.GetPage "/projects" }}
-        {{ $projects }}
-          {{ range $project := first 3 $projects.Pages }}
+        {{ with $projects := where .Pages "Section" "projects" }}
+          {{ range $project := first 3 $projects }}
       <h2><a href="{{ $project.Permalink }}">{{ $project.Title }}</a></h2>
       <p>{{ $project.Date.Format "2006-01-02" }}</p>
       <p>{{ $project.Description }}</p>
