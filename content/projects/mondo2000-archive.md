@@ -10,7 +10,7 @@ date: 2019-09-15
 
 [Issue 6](https://archive.org/details/mondo2000issue6)
 
-Issue 7
+[Issue 7](https://archive.org/details/mondo2000issue7)
 
 [Issue 8](https://archive.org/details/mondo2000issue8)
 
