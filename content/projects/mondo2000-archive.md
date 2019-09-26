@@ -18,7 +18,7 @@ date: 2019-09-15
 
 [Issue 9](https://archive.org/details/mondo2000issue9)
 
-Issue 10
+[Issue 10](https://archive.org/details/mondo2000issue10)
 
 [Issue 11](https://archive.org/details/mondo2000issue11)
 
