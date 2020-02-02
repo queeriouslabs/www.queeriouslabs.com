@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta name="generator" content="Hugo 0.40.1" />
+    <meta chartset="utf-8">
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+    <title>Queerious Labs - Space Status</title>
+  </head>
+
+  <body>
+
+
+
+  </body>
+
+  <script type="text/javascript">
+    function loadStatus(callback) {
+      var req = new XMLHttpRequest();
+      req.open('GET', 'are_we_open.txt', true);
+      req.onreadystatechange = function() {
+        if (req.readyState === 4 && req.status === 200) {
+          alert(req.responseText);
+        }
+      };
+      req.send(null);
+    }
+
+    loadStatus();
+
+  </script>
+
+</html>
