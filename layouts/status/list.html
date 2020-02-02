@@ -65,13 +65,16 @@
 
   <script type="text/javascript">
     function setStatus(status) {
-      var statusClass = "closed"
+      var statusClass;
       if ("open" === status) {
-        statusClass += "open";
+        statusClass = "open";
+        status = "OPEN";
       } else if ("closed" === status) {
-        statusClass += "closed";
+        statusClass = "closed";
+        status = "CLOSED";
       } else {
-        statusClass += "unknown";
+        statusClass = "unknown";
+        status = "UNKNOWN";
       }
 
       var statusSpan = document.getElementById("status");
