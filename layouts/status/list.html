@@ -68,13 +68,13 @@
       var statusClass;
       if ("open" === status) {
         statusClass = "open";
-        status = "OPEN";
+        status = "&nbsp;&nbsp;OPEN";
       } else if ("closed" === status) {
         statusClass = "closed";
-        status = "CLOSED";
+        status = "&nbsp;&nbsp;CLOSED";
       } else {
         statusClass = "unknown";
-        status = "UNKNOWN";
+        status = "&nbsp;&nbsp;UNKNOWN";
       }
 
       var statusSpan = document.getElementById("status");
