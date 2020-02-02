@@ -33,12 +33,16 @@
         font-size: 4em;
       }
 
-      .status.closed {
+      #status.closed {
         color: rgb(120,0,20);
       }
 
-      .status.open {
+      #status.open {
         color: rgb(80,150,50);
+      }
+
+      #status.unknown {
+        color: rgb(110,40,120);
       }
     </style>
   </head>
@@ -54,18 +58,33 @@
       <br />
       <span class="stdout" id="line_4">&nbsp;&nbsp;The space is:</span><br />
       <br />
-      <span class="status closed" id="line_5">&nbsp;&nbsp;CLOSED</span><br />
+      <span class="closed" id="status">&nbsp;&nbsp;CLOSED</span><br />
     </section>
 
   </body>
 
   <script type="text/javascript">
+    function setStatus(status) {
+      var statusClass = "closed"
+      if ("open" === status) {
+        statusClass += "open";
+      } else if ("closed" === status) {
+        statusClass += "closed";
+      } else {
+        statusClass += "unknown";
+      }
+
+      var statusSpan = document.getElementByID("status");
+      statusSpan.className = statusClass;
+      statusSpan.innerHTML = status;
+    }
+
     function loadStatus(callback) {
       var req = new XMLHttpRequest();
       req.open("GET", "https://queeriouslabs.com/are_we_open.txt", true);
       req.onreadystatechange = function() {
         if (req.readyState === 4 && req.status === 200) {
-          alert(req.responseText);
+          setStatus(req.responseText);
         }
       };
       console.log("Sending XMLHttpRequest");
