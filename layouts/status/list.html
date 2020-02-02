@@ -29,7 +29,7 @@
         color: rgb(160,120,60);
       }
 
-      .status {
+      #status {
         font-size: 4em;
       }
 
@@ -74,7 +74,7 @@
         statusClass += "unknown";
       }
 
-      var statusSpan = document.getElementByID("status");
+      var statusSpan = document.getElementById("status");
       statusSpan.className = statusClass;
       statusSpan.innerHTML = status;
     }
