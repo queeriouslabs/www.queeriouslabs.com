@@ -4,7 +4,7 @@
 
     <p>An index of the projects that have been built by Queerious Labs.</p>
     
-    {{ range .Pages.ByDate }}
+    {{ range .Pages.ByDate.Reverse }}
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     <p><em>{{ .Date.Format "2006-01-02" }}</em></p>
     <p>{{ .Description }}</p>
