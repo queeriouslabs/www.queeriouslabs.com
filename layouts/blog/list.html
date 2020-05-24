@@ -6,7 +6,7 @@
       Period updates from Queerious Labs on projects, events, political ramblings.
     </p>
 
-    {{ range .Pages.ByDate.Reverse }}
+    {{ range first 10 .Pages.ByDate.Reverse }}
     <br/>
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     <p><em>{{ .Date.Format "2006-01-02" }}</em></p>
