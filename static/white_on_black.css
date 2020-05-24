@@ -80,3 +80,8 @@ li {
   justify-content: center;
   margin-top: 3em;
 }
+
+blockquote {
+  padding: 2em;
+  font-style: italic;
+}

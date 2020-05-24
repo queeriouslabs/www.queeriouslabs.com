@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+    
+    <h1>Blog</h1>
+
+    <p>
+      Period updates from Queerious Labs on projects, events, political ramblings.
+    </p>
+
+    {{ range .Pages.ByDate.Reverse }}
+    <br/>
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <p><em>{{ .Date.Format "2006-01-02" }}</em></p>
+    <p>by {{ .Params.Author }}</p>
+    <p>{{ .Summary }} <a href="{{ .Permalink }}">read more...</a></p>
+    <br/>
+    {{ end }}
+ 
+{{ partial "footer.html" . }}
