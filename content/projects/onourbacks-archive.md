@@ -12,7 +12,7 @@ date: 2021-06-23
 
 [August/September](https://archive.org/details/oob-1998-08)
 
-[October/November (temporarily throttled, check back soon)](https://archive.org/details/oob-1998-10)
+[October/November](https://archive.org/details/oob-1998-10)
 
 ## 1999
 
