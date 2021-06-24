@@ -2,7 +2,7 @@
 
 title: On Our Backs Archive
 description: Scanning all of On Our Backs and uploading it to the Internet Archive.
-date: 2019-09-15
+date: 2021-06-23
 
 ---
 
