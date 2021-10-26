@@ -6,6 +6,12 @@ date: 2021-06-23
 
 ---
 
+NOTICE: Unfortunately, the links below no longer work. The issues were removed by
+the Internet Archive at the request of anonymous third parties. The sources of the
+scans are publicly available in the SF Public Library main branch in the reference
+section, and PDFs of the scans listed below still exist and we continue to digitize
+hard copies to ensure nothing is lost to time.
+
 ## 1998
 
 [June/July](https://archive.org/details/oob-1998-06)
